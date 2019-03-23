@@ -1,0 +1,39 @@
+header {
+	height:600px;
+	background-image: url('https://images.unsplash.com/photo-1541805500-0b420aa2d99c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+background-position: 0% 40%;
+}
+
+#title {
+	position: absolute;
+	margin-top: 188px;
+	margin-left: 40px;
+}
+
+#title h1 {
+	font-size: 55px;
+	font-weight: 800px;
+	color: #fff;
+	text-shadow: 0 0 4px #222;
+	margin-bottom: 30px;
+}
+
+#title a {
+	font-size: 24px;
+	font-weight: 600;
+	padding: 8px 25px;
+	color: #fff;
+	background: #0984e3;
+	box-shadow: 0 0 4px #222;
+	text-decoration: none;
+	border-radius: 50px;
+	transition: all .4s ease-in;
+	-moz-transition: all .4s ease-in;
+	-webkit-transition: all .4s ease-in;
+	-o-transition: all .4s ease-in;
+}
+
+#title a:hover {
+	color: #0984e3;
+	background: #fff;
+}

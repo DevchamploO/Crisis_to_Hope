@@ -1,0 +1,14 @@
+.footer {
+	background: #0c2461;
+	color: #fff;
+	text-align: center;
+}
+
+.footer h3 {
+	font-weight: 400;
+}
+
+#lifeline {
+	color: #74b9ff;
+	font-weight: 500;
+}

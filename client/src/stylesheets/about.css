@@ -1,0 +1,16 @@
+.about {
+	background: #0984e3;
+	color: #fff;
+}
+
+.about blockquote {
+	font-size:46px;
+	font-weight: 700;
+	text-align: right;
+}
+
+.description p {
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-top: 8px;
+}
