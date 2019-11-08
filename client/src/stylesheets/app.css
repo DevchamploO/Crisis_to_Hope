@@ -4,3 +4,22 @@
 	padding: 80px 0;
 	font-family: 'Roboto', sans-serif;
 }
+
+.refresh-wrapper {
+	margin-top: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.refresh-btn {
+	color: #74B9FF;
+	background: transparent;
+	border: 2px solid #74B9FF;
+	transition: all 0.5s ease;
+}
+
+.refresh-btn:hover {
+	color: #0C2461;
+	border-color: #0C2461;
+}

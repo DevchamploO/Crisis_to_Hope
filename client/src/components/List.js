@@ -1,9 +1,10 @@
-import React, {Component} from 'react';
-import ReactDom from 'react-dom';
+import React, { Component } from 'react';
+
 import '../stylesheets/list.css'
 
 class List extends Component {
 	render () {
+		if(this.props.listItems === undefined || this.props.listItems.length === 0) {return <h1>No tweets detected</h1>}
 	let elements = this.props.listItems.map((element) => {
 		return (<li className='listItem'>
 				<p className='name'>{element.user.name}</p>
@@ -15,4 +16,4 @@ class List extends Component {
 	}	
 }
 
-export default List
+export default List;
