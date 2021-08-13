@@ -1,0 +1,5 @@
+# Crisis To Hope
+Crisis to hope is a full stack React application that leverages AI for suicide prevention. An algorithm is used to first filter tweets based on usage and frequency of certain words. These words are curated based on reseach data from leading universities for the purpose of identifing at risk persons. This app then uses the IBM Watson Tone Analyzer API to detect signs of depression and suicidal ideation in tweets. This works by Watson using linguistic analysis t detect emotional and language tones in written text. A score is assigned based on the first filter and the Tone Analyzer by Watson. Tweets whose score reaches past a certain threshold is added to a list and displayed. 
+
+### What you need:
+In order to use this App you will need credencials from Twitter and IBM for the Tone Analyzer. This includes consumer keys, access tokens and whatever else is required.
